@@ -1,0 +1,56 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Content {
+  margin: 1em auto;
+  max-width: 768px;
+  border: 1px solid #282c34;
+  padding: 2em;
+}
+
+.RulesSetBlock {
+  margin: 1em 0;
+}
+
+.CollapseRulesWrapper {
+  padding: .5em 2em;
+}
+
+.RuleEditor {
+  display: flex;
+  text-align: left;
+  padding: 4px 0;
+}
+
+.RuleEditor:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.RuleEditorOpened {
+  position: relative;
+  text-align: left;
+  background-color: #eee;
+  padding: 4px 1em;
+  margin: 0 -1em;
+  border-radius: .5em;
+}
+
+.RuleEditorResume {
+  display: flex;
+  color: blue;
+}
+
+.Error {
+  color: #f44336;
+  margin-left: 8px;
+}
