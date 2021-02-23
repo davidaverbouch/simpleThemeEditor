@@ -17,3 +17,5 @@ Button Add to add a rule's section
 Button Add on each section to add rules
 jsDoc to generate technical doc on npm run doc
 make a better unit test
+
+I past 10 hours on this project
